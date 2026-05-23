@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://ecommerce-backend-41f3.onrender.com/api';
 
 const getAuthHeader = () => {
   const token = localStorage.getItem('token');
